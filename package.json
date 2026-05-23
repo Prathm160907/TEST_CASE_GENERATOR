@@ -1,0 +1,21 @@
+{
+  "name": "test-generator",
+  "version": "1.0.0",
+  "description": "AI Test Case Generator",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "cli": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.2.0",
+    "multer": "^2.1.1"
+  }
+}

@@ -76,7 +76,7 @@ app.get("/download", (req, res) => {
 });
 
 // ── Start server ──────────────────────────────────────────────────────────────
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("\n✅ Server running at http://localhost:3000");
   console.log("   Open this URL in your browser!\n");
 });

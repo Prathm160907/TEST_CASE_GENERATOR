@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const archiver = require("archiver");
 import { extractFunctions } from "./agent/parser.js";
 import { generateTests } from "./agent/generator.js";
-import { generateReport } from "./agent/reporter.js";
+import { generateReport } from "./agent/report.js";
 import { writeFileSync, readdirSync, readFileSync, mkdirSync } from "fs";
 import { join } from "path";
 const __dirname = import.meta.dirname;
